@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            margin: 40px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Gallery */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #feb47b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! My name is Krishna, and this is my personal website where I share my projects and interests. I am passionate about technology, web development, and traveling the world.</p>
+        </section>
+        
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Gaming - I enjoy playing PUBG and other online multiplayer games.</li>
+                <li>Web Development - I build websites and work on coding projects.</li>
+                <li>Traveling - I love exploring new places and capturing memories.</li>
+            </ul>
+        </section>
+        
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="images/images.jpg" alt="Photo 1">
+                <img src="images/image1.jpg" alt="Photo 2">
+                <img src="images/image2.png" alt="Photo 3">
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:krishnamukhiya842@gmail.com">krishnamukhiya842@gmail.com</a></p>
+            <p>Instagram: <a href="https://instagram.com/me_ikrishna" target="_blank">@me_ikrishna</a></p>
+        </section>
+        <p>&copy; 2025 Krishna. All rights reserved.</p>
+    </footer>
+</body>
+</html>
