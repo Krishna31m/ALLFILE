@@ -1,0 +1,66 @@
+/* Style for body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for navigation */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style for main content */
+main {
+    background-color: #f4f4f4;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style for h1 */
+h1 {
+    text-align: center;
+    font-family: "Georgia", serif;
+    color: #222;
+}
+
+/* Style for paragraphs */
+p {
+    line-height: 1.6;
+}
