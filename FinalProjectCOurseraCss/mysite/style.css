@@ -1,0 +1,122 @@
+/* Skip to Main Content */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Style Logo */
+nav img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+/* Main Section Styling */
+main {
+    background-color: #f4f4f4;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.grid img {
+    width: 100%;
+    border: 3px solid #ddd;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Flexbox Layout */
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex img {
+    width: 45%;
+    border: 3px solid #ddd;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* nth-child Selector */
+.grid img:nth-child(even) {
+    border-radius: 20px;
+}
+
+/* Hover Effects */
+.grid img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
