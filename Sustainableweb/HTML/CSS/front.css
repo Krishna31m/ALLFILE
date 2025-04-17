@@ -1,0 +1,11 @@
+.navbar{
+    background-color: red;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+}

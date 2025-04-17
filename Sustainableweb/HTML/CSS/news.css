@@ -1,0 +1,41 @@
+header{
+  background-color: rgb(129, 25, 25);
+  height: 20vh;
+  background-size: cover;
+  background-position: center;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top:40px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+ul span.btn{
+  position: absolute;
+  color: #000;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
